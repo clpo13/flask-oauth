@@ -13,4 +13,8 @@ CONSUMER_KEY: <consumer token>
 CONSUMER_SECRET: <consumer secret token>
 ```
 
-For `SECRET_KEY`, try using the results of `python -c "import os; print repr(os.urandom(24))"`.
+For `SECRET_KEY`, try using the results of `python -c "import os; print(repr(os.urandom(24)))"`.
+
+Install dependencies with `pip install -r requirements.txt` (preferably in a virtualenv).
+
+To run locally, try `FLASK_APP=app.py FLASK_ENV=development flask run`.
