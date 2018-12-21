@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# secrets
+config.yaml
